@@ -1,0 +1,39 @@
+h1,
+p {
+  font-family: Lato;
+}
+nav-link {
+  color: white;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.form-control {
+  background-color: #0000;
+}
+.bg-dark {
+  background-color: #000 !important;
+}
+.login-button {
+  background: #ff6f00;
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid #ff6f00;
+  padding: 10px;
+  font-weight: 700;
+}
+.career-ass-footer {
+  bottom: 0;
+  background-color: #000;
+  min-height: 45px;
+  position: fixed;
+  width: 100%;
+  z-index: 1100;
+}
+.text-white {
+  color: #fff !important;
+}
+.flex-vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
