@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Header } from "./header";
 import { Footer } from "./footer";
 import { CarouselPage } from "./carouselPage";
+import { JumboPage } from "./jumboPage";
 export default class Home extends React.Component {
   constructor() {
     super();
@@ -18,6 +19,9 @@ export default class Home extends React.Component {
         <div>
           <div>
             <CarouselPage />
+          </div>
+          <div className="jumbo-container">
+            <JumboPage />
           </div>
           <h1> {this.state.Welcome} </h1>
         </div>
