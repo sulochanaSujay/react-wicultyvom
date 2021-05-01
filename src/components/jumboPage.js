@@ -36,13 +36,6 @@ export class JumboPage extends React.Component {
             </div>
           </Container>
         </Jumbotron>
-        <div className="JustifyCenter row">
-          <div className="col-lg-2 col-xl-2" />
-          <div className="flex">
-            <Card className="aws-image" />
-            <Card />
-          </div>
-        </div>
       </div>
     );
   }
