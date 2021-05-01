@@ -1,0 +1,38 @@
+.freeCourseSecCardAlgn {
+  padding: 30px 5px 0;
+  position: relative;
+  text-align: center;
+  color: #000;
+}
+.textColor {
+  color: #346db6;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mainTitle {
+  font-size: 24px;
+  font-weight: 400;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+.font-weight {
+  font-weight: 400;
+  font-size: 16px;
+}
+.bg-color {
+  background-color: #6c757d;
+}
+.Inst-color {
+  color: #346db6;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.border-color {
+  border-bottom: 3px solid #ff6f00;
+  line-height: 48px;
+  padding: 2px;
+}
+.JustifyCenter {
+  justify-content: center;
+}

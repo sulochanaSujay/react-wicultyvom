@@ -1,0 +1,23 @@
+.flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  height: 100px;
+  line-height: 1.2;
+  margin-right: 5px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #346db6;
+}
+.colorBlack {
+  background-color: #000;
+}
+.subTitle {
+  color: #f8f9fa;
+  font-size: 14px;
+  font-weight: 400;
+}
+.p-l-10 {
+  padding-left: 10px;
+}
