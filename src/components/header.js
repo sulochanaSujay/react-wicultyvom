@@ -42,7 +42,7 @@ export class Header extends React.Component {
           <Nav.Link className="colorWhite" href="#pricing">
             Blog
           </Nav.Link>
-          |<Button className="Danger">Sign up/ Login</Button>{" "}
+          |<Button className="login-button">Sign up/ Login</Button>{" "}
         </Navbar>
       </div>
     );
