@@ -21,3 +21,7 @@
 .p-l-10 {
   padding-left: 10px;
 }
+.aws-image {
+  background-image: url(https://d2alvkbeky9xdq.cloudfront.net/course/6zw23.png);
+  height:100
+}

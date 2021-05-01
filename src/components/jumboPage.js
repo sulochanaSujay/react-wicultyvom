@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Jumbotron, Container } from "react-bootstrap";
+import { Jumbotron, Container, Card } from "react-bootstrap";
 import "./jumbpPage.css";
 export class JumboPage extends React.Component {
   constructor() {
@@ -38,6 +38,10 @@ export class JumboPage extends React.Component {
         </Jumbotron>
         <div className="JustifyCenter row">
           <div className="col-lg-2 col-xl-2" />
+          <div className="flex">
+            <Card className="aws-image" />
+            <Card />
+          </div>
         </div>
       </div>
     );
