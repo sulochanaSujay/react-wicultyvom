@@ -40,3 +40,48 @@
   color: white;
   text-align: center;
 }
+.card-bottom-2 {
+  margin-top: 20%;
+  background-color: rgb(248, 152, 3);
+  padding: 10px;
+  margin-bottom: 1%;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.card-bottom-3 {
+  margin-top: 20%;
+  background-color: rgb(46, 141, 188);
+  padding: 10px;
+  margin-bottom: 1%;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.card-bottom-4 {
+  margin-top: 20%;
+  background-color: rgb(20, 59, 124);
+  padding: 10px;
+  margin-bottom: 1%;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.card-bottom-5 {
+  margin-top: 20%;
+  background-color: rgb(51, 55, 115);
+  padding: 10px;
+  margin-bottom: 1%;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.card-bottom-6 {
+  margin-top: 20%;
+  background-color: rgb(247, 126, 21);
+  padding: 10px;
+  margin-bottom: 1%;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
