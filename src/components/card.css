@@ -17,6 +17,13 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+.course-card-2 {
+  width: 12%;
+  height: 10%;
+  text-align: center;
+  padding-top: 15%;
+  margin-left: 35%;
+}
 .card-image {
   height: 300px;
   border-radius: 10px;
@@ -29,7 +36,6 @@
   color: #fff;
   top: 200px;
   text-align: center;
-  padding: 10px;
 }
 .card-bottom-1 {
   margin-top: 20%;
@@ -84,4 +90,16 @@
   border-radius: 10px;
   color: white;
   text-align: center;
+}
+.view-all-course {
+  padding-left: 36%;
+  padding-top: 10%;
+}
+.btn-theme {
+  background: #ff6f00 !important;
+  color: #fff;
+  border: 1px solid #ff6f00;
+  border-radius: 50rem !important;
+  display: inline-block;
+  font-weight: 400;
 }

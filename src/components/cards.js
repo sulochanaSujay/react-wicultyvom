@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Row, Col } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import "./card.css";
 export class CardPage extends React.Component {
   constructor() {
@@ -131,7 +131,7 @@ export class CardPage extends React.Component {
             </div>
           </Card>
         </div>
-        <div>
+        <div className="course-card-2">
           <Card className="course-card">
             <img
               className="card-image"
@@ -148,6 +148,12 @@ export class CardPage extends React.Component {
               <div className="bottom-text">DevSecOps</div>
             </div>
           </Card>
+        </div>
+        <div className="view-all-course">
+          <Button variant="btn-warning" className="btn-theme">
+            {" "}
+            View All Courses
+          </Button>{" "}
         </div>
       </>
     );

@@ -4,7 +4,8 @@ import { Footer } from "./footer";
 import { CarouselPage } from "./carouselPage";
 import { JumboPage } from "./jumboPage";
 import { CardPage } from "./cards";
-export default class Home extends React.Component {
+import { TrendingTable } from "./trendingTable";
+export class Home extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -27,7 +28,6 @@ export default class Home extends React.Component {
           <div className="card-container">
             <CardPage />
           </div>
-          <h1> {this.state.Welcome} </h1>
         </div>
         <div className="foooter-container">
           <Footer />
