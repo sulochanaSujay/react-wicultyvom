@@ -48,8 +48,25 @@ p {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5%;
-  margin-bottom: 5%;
 }
 .card-row {
   display: flex;
+}
+.trendingTable-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  color: #000;
+}
+.bg-white {
+  background: #fff !important;
+  color: black;
+}
+.knowmore-button {
+  background-color: #fff;
+  color: #ff6f00;
 }

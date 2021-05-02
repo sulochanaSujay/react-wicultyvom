@@ -4,6 +4,7 @@ import { Footer } from "./footer";
 import { CarouselPage } from "./carouselPage";
 import { JumboPage } from "./jumboPage";
 import { CardPage } from "./cards";
+import { TrendingTables } from "./trendingTable";
 export class Home extends React.Component {
   constructor() {
     super();
@@ -18,15 +19,16 @@ export class Home extends React.Component {
           <Header />
         </div>
         <div>
-          <div>
-            <CarouselPage />
-          </div>
-          <div className="jumbo-container">
-            <JumboPage />
-          </div>
-          <div className="card-container">
-            <CardPage />
-          </div>
+          <CarouselPage />
+        </div>
+        <div className="jumbo-container">
+          <JumboPage />
+        </div>
+        <div className="card-container">
+          <CardPage />
+        </div>
+        <div className="trendingTable-container">
+          <TrendingTables />
         </div>
         <div className="foooter-container">
           <Footer />
