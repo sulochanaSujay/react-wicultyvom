@@ -6,6 +6,8 @@ import { JumboPage } from "./jumboPage";
 import { CardPage } from "./cards";
 import { TrendingTables } from "./trendingTable";
 import { TrainingIndustryCard } from "./trainingIndustryCard.js";
+import { Business } from "./bussinessCard";
+import { TestimonalCarousel } from "./testimonial";
 export class Home extends React.Component {
   constructor() {
     super();
@@ -36,6 +38,13 @@ export class Home extends React.Component {
           <h4>Our Unique Pitches - Absolutely the best in training industry</h4>
           <TrainingIndustryCard />
         </div>
+        <div clasName="bussiness-card-container">
+          <Business />
+        </div>
+        <div className="testimonial-container">
+          <TestimonalCarousel />
+        </div>
+
         <div className="foooter-container">
           <Footer />
         </div>

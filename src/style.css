@@ -102,8 +102,20 @@ p {
   font-weight: 700;
   padding-bottom: 2%;
 }
-.industry-description {
-}
+
 .icon-image {
   width: 30%;
+}
+.testimonial-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.testimonial-card {
+  width: 30%;
+  margin-left: 2%;
+  height: 100% !important;
+  margin-right: 1%;
+  padding-bottom: 5%;
 }

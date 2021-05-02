@@ -1,0 +1,29 @@
+.testimonial-main {
+  height: 200px;
+  color: black;
+}
+.wiculty-testi {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.testimonial-card {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  height: 170px;
+}
+.testimonial-sub {
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 12px;
+}
+.title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.Avatar {
+  display: inline-block;
+  vertical-align: top;
+}
