@@ -74,7 +74,36 @@ p {
 }
 .training-industry-container {
   padding-bottom: 5%;
-  padding-left: 10%;
+  padding-left: 11%;
   padding-right: 10%;
   text-align: center;
+}
+.training-industry-card {
+  width: 33% !important;
+  height: 100%;
+  margin-right: 0%;
+  margin-left: 0%;
+  margin-top: 2%;
+  text-align: left;
+  padding: 1% 2% 1% 2%;
+  border: none;
+}
+.training-industry-card:hover {
+  z-index: 2;
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px);
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgb(35 31 32 / 15%);
+}
+.industry-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 2%;
+}
+.industry-description {
+}
+.icon-image {
+  width: 30%;
 }

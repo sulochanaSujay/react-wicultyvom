@@ -2,6 +2,15 @@
   width: 12%;
   height: 10%;
 }
+.course-card:hover {
+  z-index: 2;
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px);
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgb(35 31 32 / 15%);
+}
 .card {
   width: 100%;
   height: 300px;
