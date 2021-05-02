@@ -43,3 +43,11 @@ p {
   padding-right: 10%;
   padding-left: 10%;
 }
+.card-container {
+  margin-top: -8%;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+.card-row {
+  display: flex;
+}
