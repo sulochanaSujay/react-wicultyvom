@@ -2,6 +2,9 @@ h1,
 p {
   font-family: Lato;
 }
+.home-container {
+  background-color: whitesmoke;
+}
 .nav-link {
   color: white !important;
   display: block;
@@ -44,7 +47,7 @@ p {
   padding-left: 10%;
 }
 .card-container {
-  margin-top: -8%;
+  margin-top: -7%;
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5%;

@@ -20,40 +20,44 @@ export class Home extends React.Component {
   render() {
     return (
       <>
-        <div clasName="header-container">
-          <Header />
-        </div>
-        <div>
-          <CarouselPage />
-        </div>
-        <div className="jumbo-container">
-          <JumboPage />
-        </div>
-        <div className="card-container">
-          <CardPage />
-        </div>
-        <div className="trendingTable-container">
-          <h4>Free Webinars on Trending Topics</h4>
-          <TrendingTables />
-        </div>
-        <div className="training-industry-container">
-          <h4>Our Unique Pitches - Absolutely the best in training industry</h4>
-          <TrainingIndustryCard />
-        </div>
-        <div clasName="bussiness-card-container">
-          <Business />
-        </div>
-        <div className="testimonial-container">
-          <TestimonalCarousel />
-        </div>
-        <div className="alumni-container ">
-          <Alumni />
-        </div>
-        <div className="about-container">
-          <About />
-        </div>
-        <div className="foooter-container">
-          <Footer />
+        <div className="home-container">
+          <div clasName="header-container">
+            <Header />
+          </div>
+          <div>
+            <CarouselPage />
+          </div>
+          <div className="jumbo-container">
+            <JumboPage />
+          </div>
+          <div className="card-container">
+            <CardPage />
+          </div>
+          <div className="trendingTable-container">
+            <h4>Free Webinars on Trending Topics</h4>
+            <TrendingTables />
+          </div>
+          <div className="training-industry-container">
+            <h4>
+              Our Unique Pitches - Absolutely the best in training industry
+            </h4>
+            <TrainingIndustryCard />
+          </div>
+          <div clasName="bussiness-card-container">
+            <Business />
+          </div>
+          <div className="testimonial-container">
+            <TestimonalCarousel />
+          </div>
+          <div className="alumni-container ">
+            <Alumni />
+          </div>
+          <div className="about-container">
+            <About />
+          </div>
+          <div className="foooter-container">
+            <Footer />
+          </div>
         </div>
       </>
     );
