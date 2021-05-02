@@ -119,3 +119,27 @@ p {
   margin-right: 1%;
   padding-bottom: 5%;
 }
+.alumni-head {
+  text-align: center;
+}
+.alumni-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-top: 0%;
+}
+.alumni-icon {
+  width: 75px;
+  height: 75px;
+  z-index: 5;
+  box-shadow: 1px 4px 6px 1px #aaa;
+  border-radius: 50%;
+  -webkit-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.alumni-images {
+      width: 100%;
+    padding-top: 20%;
+}

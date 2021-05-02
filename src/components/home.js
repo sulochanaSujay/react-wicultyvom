@@ -8,6 +8,7 @@ import { TrendingTables } from "./trendingTable";
 import { TrainingIndustryCard } from "./trainingIndustryCard.js";
 import { Business } from "./bussinessCard";
 import { TestimonalCarousel } from "./testimonial";
+import { Alumni } from "./alumni";
 export class Home extends React.Component {
   constructor() {
     super();
@@ -43,6 +44,9 @@ export class Home extends React.Component {
         </div>
         <div className="testimonial-container">
           <TestimonalCarousel />
+        </div>
+        <div className="alumni-container ">
+          <Alumni />
         </div>
 
         <div className="foooter-container">
