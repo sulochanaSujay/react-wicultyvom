@@ -19,7 +19,14 @@ export class CardPage extends React.Component {
               alt="card-image"
             />
 
-            <div className="card-text">Duration:55+ hrs</div>
+            <div className="card-text">
+              Duration:55+ hrs
+              <br />
+              Project : 40 hrs
+            </div>
+            <div className="card-bottom" >
+            
+            </div>
           </Card>
 
           <Card className="course-card">
@@ -28,6 +35,11 @@ export class CardPage extends React.Component {
               src="https://d2alvkbeky9xdq.cloudfront.net/course/ihzko.png"
               alt="card-image"
             />
+            <div className="card-text">
+              Duration:55+ hrs
+              <br />
+              Project : 40 hrs
+            </div>
           </Card>
 
           <Card className="course-card">
@@ -36,6 +48,11 @@ export class CardPage extends React.Component {
               src="https://d2alvkbeky9xdq.cloudfront.net/course/50m3t.png"
               alt="card-image"
             />
+            <div className="card-text">
+              Duration:55+ hrs
+              <br />
+              Project : 40 hrs
+            </div>
           </Card>
 
           <Card className="course-card">
@@ -44,6 +61,11 @@ export class CardPage extends React.Component {
               src="https://d2alvkbeky9xdq.cloudfront.net/course/mfk1ah.png"
               alt="card-image"
             />
+            <div className="card-text">
+              Duration:55+ hrs
+              <br />
+              Project : 40 hrs
+            </div>
           </Card>
 
           <Card className="course-card">
@@ -52,6 +74,12 @@ export class CardPage extends React.Component {
               src="https://d2alvkbeky9xdq.cloudfront.net/course/6n3iq.png"
               alt="card-image"
             />
+            <div className="card-text">
+              Duration:55+ hrs
+              <br />
+              Project : 40 hrs
+            </div>
+            <div className="card-bottom" />
           </Card>
           <Card className="course-card">
             <img
@@ -59,6 +87,11 @@ export class CardPage extends React.Component {
               src="https://d2alvkbeky9xdq.cloudfront.net/course/j579h.jpg"
               alt="card-image"
             />
+            <div className="card-text">
+              Duration:55+ hrs
+              <br />
+              Project : 40 hrs
+            </div>
           </Card>
 
           <Card className="course-card">
@@ -67,6 +100,11 @@ export class CardPage extends React.Component {
               src="https://d2alvkbeky9xdq.cloudfront.net/course/hh9izk.png"
               alt="card-image"
             />
+            <div className="card-text">
+              Duration:55+ hrs
+              <br />
+              Project : 40 hrs
+            </div>
           </Card>
         </div>
       </>
