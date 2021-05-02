@@ -4,7 +4,6 @@ import { Footer } from "./footer";
 import { CarouselPage } from "./carouselPage";
 import { JumboPage } from "./jumboPage";
 import { CardPage } from "./cards";
-import { TrendingTable } from "./trendingTable";
 export class Home extends React.Component {
   constructor() {
     super();
