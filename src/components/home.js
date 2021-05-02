@@ -9,6 +9,7 @@ import { TrainingIndustryCard } from "./trainingIndustryCard.js";
 import { Business } from "./bussinessCard";
 import { TestimonalCarousel } from "./testimonial";
 import { Alumni } from "./alumni";
+import { About } from "./about";
 export class Home extends React.Component {
   constructor() {
     super();
@@ -48,7 +49,9 @@ export class Home extends React.Component {
         <div className="alumni-container ">
           <Alumni />
         </div>
-
+        <div className="about-container">
+          <About />
+        </div>
         <div className="foooter-container">
           <Footer />
         </div>

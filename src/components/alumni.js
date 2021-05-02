@@ -59,7 +59,6 @@ export class Alumni extends React.Component {
                 alt="alumni-image"
               />
             </div>
-            
           </Row>
         </div>
       </>
