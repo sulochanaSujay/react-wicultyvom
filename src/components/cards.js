@@ -18,6 +18,8 @@ export class CardPage extends React.Component {
               src="https://d2alvkbeky9xdq.cloudfront.net/course/6zw23.png"
               alt="card-image"
             />
+
+            <div className="card-text">Duration:55+ hrs</div>
           </Card>
 
           <Card className="course-card">
