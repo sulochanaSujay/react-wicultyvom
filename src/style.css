@@ -61,12 +61,20 @@ p {
 .table-striped tbody tr:nth-of-type(odd) {
   background-color: rgba(0, 0, 0, 0.05) !important;
   color: #000;
+  border: none !important;
 }
 .bg-white {
   background: #fff !important;
   color: black;
+  border: none !important;
 }
 .knowmore-button {
   background-color: #fff;
   color: #ff6f00;
+}
+.training-industry-container {
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
 }
