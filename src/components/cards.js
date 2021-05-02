@@ -130,6 +130,8 @@ export class CardPage extends React.Component {
               <div className="bottom-text">DevSecOps</div>
             </div>
           </Card>
+        </div>
+        <div>
           <Card className="course-card">
             <img
               className="card-image"
