@@ -5,6 +5,11 @@ p {
 .home-container {
   background-color: whitesmoke;
 }
+.navbar {
+  position: fixed !important;
+  z-index: 1000;
+  width: 100% !important;
+}
 .nav-link {
   color: white !important;
   display: block;
