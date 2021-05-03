@@ -9,6 +9,7 @@ p {
   position: fixed !important;
   z-index: 1000;
   width: 100% !important;
+  background-color: #0000 !important;
 }
 .nav-link {
   color: white !important;

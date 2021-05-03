@@ -10,7 +10,7 @@ export class Header extends React.Component {
   render() {
     return (
       <div>
-        <Navbar bg="dark" variant="dark">
+        <Navbar className="bg-dark">
           <Navbar.Brand href="#home">
             <img
               src="https://d2alvkbeky9xdq.cloudfront.net/img/New-wiculty-logo.png"
